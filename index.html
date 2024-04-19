@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website Landing Page With Full Screen Draggable Image Slider - Html, Css & Javascript</title>
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/toolbox.css' rel='stylesheet'>
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/profile.css' rel='stylesheet'>
+  <font-awesome-icon :icon="['fab', 'x-twitter']" />
+</head>
+
+<body>
+
+  <header>
+    <div class="nav-bar">
+      <a href="" class="logo">SoftSoftware.</a>
+      <div class="navigation">
+        <div class="nav-items">
+          <i class="uil uil-times nav-close-btn"></i>
+          <a href="#"><i class="uil uil-home"></i> Inicio</a>
+          <a href="#Sobrenos"><i class="gg-profile"></i> Sobre Nos</a>
+          <a href="#projetos"><i class="gg-toolbox"></i> Projetos</a>
+          <a href="#faleconosco"><i class="uil uil-envelope"></i> Fale Conosco</a>
+        </div>
+      </div>
+      <i class="uil uil-apps nav-menu-btn"></i>
+    </div>
+  </header>
+
+  <section class="home">
+    <!-- <div class="media-icons">
+      <a href="#"><i class="uil uil-facebook-f"></i></a>
+      <a href="#"><i class="uil uil-instagram"></i></a>
+      <a href="#"><i class="uil uil-twitter"></i></a>
+    </div> -->
+
+    <div class="swiper bg-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/Principal5.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">SoftSoftware</h2>
+            <p>Na SoftSoftware, transformamos sonhos em códigos e desafios em soluções, porque para nós, o software é a
+              arte de tornar o impossível em realidade.</p>
+            <!-- <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button> -->
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <img src="images/bannerjao3.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">Winter <span>Season</span></h2>
+            <p>Winter is the coldest season of the year in polar and temperate zones. It occurs
+              between autumn and spring.The tilt of Earth's axis causes seasons; winter occurs
+              when a hemisphere is oriented away from the Sun. Different cultures define different
+              dates as the start of winter, and some use a definition based on weather.</p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <img src="images/Principal5.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">Summer <span>Season</span></h2>
+            <p>Summer is the hottest of the four temperate seasons, occurring after spring and
+              before autumn. At or aroundthe summer solstice, the earliest sunrise and latest
+              sunset occurs, daylight hours are longest and dark hours are shortest, with day
+              length decreasing as the season progresses after the solstice.</p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+
+        </div>
+        <div class="swiper-slide">
+          <img src="images/bg4.jpg" alt="">
+          <div class="text-content">
+            <h2 class="title">Spring <span>Season</span></h2>
+            <p>Spring, also known as springtime, is one of the four temperate seasons, succeeding
+              winter and preceding summer. There are various technical definitions of spring, but
+              local usage of the term varies according to local climate, cultures and customs. When
+              it is spring in the Northern Hemisphere, it is autumn in the Southern Hemisphere and
+              vice versa.</p>
+            <button class="read-btn">Read More <i class="uil uil-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-slider-thumbs">
+      <div class="swiper-wrapper thumbs-container">
+        <img src="images/bannerTest.jpg" class="swiper-slide" alt="">
+        <img src="images/bg2.jpg" class="swiper-slide" alt="">
+        <img src="images/bg3.jpg" class="swiper-slide" alt="">
+        <!-- <img src="images/bg4.jpg" class="swiper-slide" alt=""> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="SobreNosT">
+    <div class="BodyText" id="Sobrenos">
+      <div class="SobNTi">
+        <h2>Sobre nós</h2>
+      </div>
+      <br>
+      <p>Bem-vindo à SoftSoftware, onde a inovação e a excelência se fundem para criar soluções digitais de última
+        geração.
+        Na SoftSoftware, não apenas construímos aplicativos e sistemas;
+        forjamos parcerias duradouras e soluções sob medida para atender às necessidades específicas de cada cliente.
+        Nossa equipe de especialistas apaixonados e dedicados trabalha incansavelmente para oferecer produtos e serviços
+        que não apenas atendem, mas superam as expectativas. </br>
+        Além disso, na SoftSoftware, estamos comprometidos com a responsabilidade social corporativa e a
+        sustentabilidade.
+        Procuramos sempre minimizar nosso impacto no meio ambiente e contribuir positivamente para as comunidades onde
+        atuamos. </br>
+        Estamos entusiasmados em continuar nossa jornada de inovação e excelência, e convidamos você a fazer parte dela.
+        Junte-se à SoftSoftware e experimente o poder da tecnologia em suas mãos.</p>
+    </div>
+  </section>
+
+  <!-- <section class="rocketSection">
+    <img src="./images/Rocket-small.svg" alt="">
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni deserunt hic officia cum eaque vel mollitia
+      dolorem, amet perspiciatis excepturi odit voluptatum deleniti nostrum eius officiis culpa id corporis
+      expedita!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni deserunt hic officia cum eaque vel
+      mollitia dolorem.
+      <br><br><br>
+      <button class="button type1">
+        <span class="btn-txt">Hello</span>
+      </button>
+    </p>
+  </section> -->
+
+  <section class="members">
+
+    <div class="container">
+      <div class="card">
+        <div class="imgbx">
+          <img src="./images/dami-adebayo-k6aQzmIbR1s-unsplash.jpg" alt="">
+        </div>
+        <div class="content">
+          <h1>Samuel</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda aliquid a, modi, nisi minus qui
+            perferendis iusto dolores harum, debitis iste officia facere suscipit quod laborum sed? Repellendus,
+            corporis nulla?</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgbx">
+          <img src="./images/dami-adebayo-k6aQzmIbR1s-unsplash.jpg" alt="">
+        </div>
+        <div class="content">
+          <h1>Rafael</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda aliquid a, modi, nisi minus qui
+            perferendis iusto dolores harum, debitis iste officia facere suscipit quod laborum sed? Repellendus,
+            corporis nulla?</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="imgbx">
+          <img src="./images/charlie-green-3JmfENcL24M-unsplash.jpg" alt="">
+        </div>
+        <div class="content">
+          <h1>João</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, fuga sequi! Assumenda, quam nisi
+            debitis animi fuga, ad illum obcaecati porro non iure eaque. Commodi consectetur quos facere. Similique,
+            deleniti.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbx">
+          <img src="./images/ludovic-migneault-EZ4TYgXPNWk-unsplash.jpg" alt="">
+        </div>
+        <div class="content">
+          <h1>Kauan</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi dolor nesciunt esse ad, maiores
+            at corporis dolorem odio? Aperiam, exercitationem nesciunt recusandae tenetur laboriosam animi quod
+            consequuntur deleniti commodi?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="projetos">
+    <div class="tituloProjetos">
+      <h1 id="projetos">Nossos projetos</h1>
+    </div>
+    <div class="cards">
+      <div class="card active" style="background: url('./images/bg1.jpg');">
+        <div class="shadow"></div>
+        <div class="label">
+          <div class="icon" style="background: url('');">
+            <ion-icon name="sunny"></ion-icon>
+          </div>
+          <div class="info">
+            <div class="title">Spring</div>
+            <div>Nature Looks Attractive</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="background: url('./images/bg3.jpg');">
+        <div class="shadow"></div>
+        <div class="label">
+          <div class="icon" style="color: blue">
+            <ion-icon name="sparkles"></ion-icon>
+          </div>
+          <div class="info">
+            <div class="title">Summer</div>
+            <div>Summer is a State of Mind</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="background: url('./images/bg4.jpg');">
+        <div class="shadow"></div>
+        <div class="label">
+          <div class="icon" style="color: orange">
+            <ion-icon name="thunderstorm"></ion-icon>
+          </div>
+          <div class="info">
+            <div class="title">Autumn</div>
+            <div>Life Starts All Over Again</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="background: url('./images/bg2.jpg');">
+        <div class="shadow"></div>
+        <div class="label">
+          <div class="icon" style="color: black">
+            <ion-icon name="snow"></ion-icon>
+          </div>
+          <div class="info">
+            <div class="title">Winter</div>
+            <div>Not a Season, It's Celebration</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <div class="hr_s">
+    <hr>
+  </div>
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <h3 id="faleconosco">SoftSoftware.
+        </h3>
+        <div class="social_media">
+          <!-- <a href=""><i class="gg-instagram"></i></a>
+          <a href=""><i class="gg-facebook"></i></a>
+          <a href=""><i class="line-md--twitter-x"></i></a> -->
+          
+          <p class="linktreetxt"><span class="simple-icons--linktree"></span> /SoftSoftware</p>
+        </div>
+        <p>
+          Conectendo consiência, informação e mudança - Juntos pelo futuro sustentável.
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4>Suporte</h4>
+        <p>FAQs</p>
+        <p>Termos & Condições</p>
+        <p>Politica de Privacidade</p>
+
+      </div>
+      <div id="contato" class="footer__col">
+        <h4>Endereço</h4>
+        <p>
+          <span>Endereço:</span> R. Luís Lacava, 202 - Vila Bocaina, Mauá - SP, 09310-080
+        </p>
+        <p><span>Email:</span> eco.clima@outlook.com</p>
+        <p><span>Telefone:</span> +11 97107-4675</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/cards.js"></script>
+
+</body>
+
+</html>
